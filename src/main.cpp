@@ -42,7 +42,7 @@ void loop(){
   }
 }
 void sumar(){
-  if (frecuencia < fMax){
+  if (frecuencia < fMax){  /// Estoy comentando esta linea
     frecuencia = (frecuencia_ant + 0.1);
   }
 }
